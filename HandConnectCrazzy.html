@@ -520,6 +520,21 @@ function updatePhysics() {
 function renderLoop(timestamp) {
     requestAnimationFrame(renderLoop);
     
+ctx.globalCompositeOperation = 'source-over'; // Restore
+
+// ===== WATERMARK (FIXED) =====
+ctx.globalCompositeOperation = 'source-over';
+
+ctx.fillStyle = themes[currentTheme](time, 1, 1);
+ctx.font = "15px monospace";
+ctx.textAlign = "center";
+ctx.globalAlpha = 0.7;
+
+ctx.fillText("© Pranav Dange | Neon Aura AR", width - 20, height - 20);
+
+ctx.globalAlpha = 8.0;
+
+
     let dt = (timestamp - lastTime) / 1000;
     lastTime = timestamp;
     time += dt;
