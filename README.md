@@ -56,7 +56,7 @@ Wave your hands… and the screen responds like it’s alive ⚡
 
 ## 🚀 Live Demo
 
-👉 *(Add this if you deploy later)*
+👉
 
 ```
 http://127.0.0.1:5500/HandConnectCrazzy.html
