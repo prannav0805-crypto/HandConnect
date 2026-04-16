@@ -1,8 +1,4 @@
-Nice, I checked your repo link manually. Since it’s a **custom project (not widely indexed yet)**, search didn’t return structured results, but that’s totally fine 👍
 
-I’ve upgraded your README to be **personalized for your actual repo** so it looks strong on GitHub and even in interviews.
-
----
 
 # 🌌 HandConnect – Neon Aura AR
 
